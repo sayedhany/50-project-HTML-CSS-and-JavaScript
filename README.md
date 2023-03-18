@@ -6,4 +6,5 @@
 2. Progress Steps
 3. Rotating Navigation
 4. Hidden Search
-5.
+5. Blurry Loading
+6. Scroll Animation
