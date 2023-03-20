@@ -8,3 +8,4 @@
 4. [Hidden Search](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/04-hidden%20Search)
 5. [Blurry Loading](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/05-Blurry%20Loading)
 6. [Scroll Animation](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/06-Scroll%20Animation)
+7. 
