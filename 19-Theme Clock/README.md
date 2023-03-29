@@ -1,6 +1,6 @@
 ### Theme Clock
 
-This is a JavaScript code that creates an analog clock and uses different functions, variables, and event listeners to manipulate the clock.
+This is a JavaScript code that creates an analog clock and uses different functions, variables, and event listeners to manipulate the clock..
 
 The first 6 lines are selecting different HTML elements using Document Object Model (DOM) APIs.
 
