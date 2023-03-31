@@ -2,20 +2,29 @@
 
 This code adds a ripple effect to a button on a webpage when it is clicked.
 
-`const btn = document.querySelector(".ripple");`
+```
+const btn = document.querySelector(".ripple");
+```
+
 This line assigns the DOM element with class "ripple" to the btn variable.
 
-`const html = document.querySelector("html");`
+```
+const html = document.querySelector("html");
+```
+
 This line assigns the html tag of the webpage to the html variable.
 
-```btn.addEventListener("click", (e) => {
+```
+btn.addEventListener("click", (e) => {
   //code block
-  });
+});
 ```
 
 This code block adds an event listener for the click event to the btn element. When the button is clicked, the code inside the block will execute.
 
-`console.log(e);`
+```
+console.log(e);
+```
 This line logs the e object (the event object) to the console.
 
 ```
