@@ -1,7 +1,7 @@
 const textEl = document.getElementById("text");
 const speedEl = document.getElementById("speed");
 
-const text = "We Love Programming!";
+const text = "Sayed Hany, Software Engineer";
 
 let idx = 1;
 
