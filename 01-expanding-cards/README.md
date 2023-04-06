@@ -1,5 +1,7 @@
 "Expands Cards"
 
+- Live view: https://50-project-html-css-js-chatgpt.netlify.app/01-expanding-cards
+
 - The code above is selecting all the elements with class name "panel" from the DOM, and adding a click event listener to each of them using forEach loop. When an element with ".panel" class is clicked, it removes the active class from all the ".panel" elements on the page using removeActiveClasses() function, and then adds the "active" class to the clicked element.
 
 The function removeActiveClasses() is defined outside forEach loop. It loops through all the ".panel" elements on the page and removes the "active" class from each of them.
