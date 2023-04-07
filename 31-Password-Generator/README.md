@@ -1,4 +1,6 @@
-### Password Generator
+### Password enerator
+
+- Live view: https://50-project-html-css-js-chatgpt.netlify.app/31-Password-Generator
 
 This code is for generating a random password based on user input.
 
