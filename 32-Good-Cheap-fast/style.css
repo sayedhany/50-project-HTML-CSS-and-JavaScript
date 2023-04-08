@@ -13,6 +13,13 @@ body {
   align-items: center;
   height: 100vh;
 }
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 200px;
+}
 .toggle {
   visibility: hidden;
 }
