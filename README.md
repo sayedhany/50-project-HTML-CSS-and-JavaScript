@@ -14,4 +14,3 @@
 10. [Dad Jokes](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/10-Dad%20Jokes)
 11. [Event Keycodes](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/11-Event%20Keycodes)
 12. [Faq Collapse](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/12-Faq%20Collapse)
-13. Random Choice Picker
