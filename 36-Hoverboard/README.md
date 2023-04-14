@@ -4,7 +4,7 @@
 
 This code creates a simple "hover-effect" using JavaScript and CSS.
 
-The code selects the HTML element with an ID of `container` using `document.getElementById()`, creates an array of colors, and sets the variable `SQUARES` equal to 500
+The code selects the HTML element with an ID of `container` using `document.getElementById()`, creates an array of colors, and sets the variable `SQUARES` equal to 500.
 
 Then, the code runs through a for loop that will create 500 div (squares). Inside the loop, it creates new div element using `document.createElement()` and adds a CSS class of `square` to it using `classList.add()`.
 
