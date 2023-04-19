@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(155, 89, 182, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  width: 34rem;
+  height: 60rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 3px solid #eee;
+  background-color: #eee;
+}
+.phone img {
+  width: 100%;
+  height: calc(100% - 60px);
+  /* height: 66%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+.phone img.show {
+  opacity: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* width: calc(100% / 3); */
+  flex: 1;
+  padding: 1rem;
+}
+
+nav ul li i {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+nav ul li:hover {
+  color: rgba(155, 89, 182, 0.7);
+}
+nav ul li.active {
+  color: rgba(155, 89, 182, 0.7);
+}
