@@ -1,4 +1,4 @@
-"Expands Cards"
+### Expands Cards
 
 - Live view: https://50-project-html-css-js-chatgpt.netlify.app/01-expanding-cards
 
