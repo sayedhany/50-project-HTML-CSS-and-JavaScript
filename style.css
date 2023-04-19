@@ -16,13 +16,14 @@ body {
     rgba(224, 224, 224, 1) 49%,
     rgba(255, 255, 255, 1) 100%
   );
+  width: 100%;
 }
 .header {
   font-size: 1.6rem;
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 2rem 5rem;
 }
 .logo {
@@ -56,7 +57,7 @@ body {
   margin: 5rem 0;
   font-size: 4rem;
   font-weight: 900;
-  line-height: 2rem;
+  /* line-height: 2rem; */
 }
 .title span {
   background: linear-gradient(to right bottom, #696969, #333);
@@ -69,7 +70,7 @@ body {
   margin: 0 auto;
   margin-top: 10rem;
   width: 80%;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 3rem;
 }
 
@@ -107,4 +108,33 @@ body {
   display: inline-block;
   border: 1px solid rgb(59, 59, 59);
   color: rgb(59, 59, 59);
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    text-align: center;
+    justify-content: center;
+  }
+  .logo {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .links {
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .title span {
+    display: inline-block;
+  }
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
 }
