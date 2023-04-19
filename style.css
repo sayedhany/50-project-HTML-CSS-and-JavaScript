@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Chivo Mono", sans-serif;
+  background: rgb(220, 218, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(220, 218, 255, 1) 0%,
+    rgba(224, 224, 224, 1) 49%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.header {
+  font-size: 1.6rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+.logo {
+  font-size: 3rem;
+  letter-spacing: 9px;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+}
+.links li {
+  color: #333;
+  cursor: pointer;
+}
+.nav .link:link,
+.nav .link:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.links li:hover {
+  color: #746767;
+}
+.links {
+  list-style: none;
+  display: flex;
+  column-gap: 10rem;
+  font-size: 2rem;
+}
+.title {
+  text-align: center;
+
+  margin: 5rem 0;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 2rem;
+}
+.title span {
+  background: linear-gradient(to right bottom, #696969, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container {
+  display: grid;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.container .card {
+  border: 1px solid #222;
+  border-radius: 1rem;
+}
+.card-title {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.card-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.btn {
+  border: 1px solid transparent;
+  padding: 1rem;
+}
+.btn:link,
+.btn:visited {
+  font-family: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
+.btn:active,
+.btn:hover {
+  display: inline-block;
+  border: 1px solid rgb(59, 59, 59);
+  color: rgb(59, 59, 59);
+}
