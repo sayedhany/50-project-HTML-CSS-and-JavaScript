@@ -1,7 +1,6 @@
 ### progress steps
 
 - Live view: https://50-project-html-css-js-chatgpt.netlify.app/01-expanding-cards
-  !["progress photo"](https://i.ibb.co/R0ps44v/progress.png)
 
 The given code is for creating an interactive progress tracker that can be used to show the progress status of a multi-step process. The progress tracker contains a number of circles that represent each step and show the current step as "active".
 
