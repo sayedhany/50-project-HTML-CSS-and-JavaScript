@@ -1,4 +1,4 @@
-### Verify-Account-Ui
+### Verify Account Ui
 
 - Live view: https://50-project-html-css-js-chatgpt.netlify.app/41-Verify-Account-Ui
 
