@@ -70,5 +70,4 @@
 17. [Movie App](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/17-Movie-App)
 
 - Live view: https://50-project-html-css-js-chatgpt.netlify.app/17-Movie-App
-
 18. [Background Slider](https://github.com/sayedhany/50-project-HTML-CSS-and-JavaScript/tree/main/18-Background-Slider)
